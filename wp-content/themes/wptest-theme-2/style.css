@@ -1,0 +1,49 @@
+/*
+Theme Name: wptest theme II
+Theme URI: https://http://139.199.109.247
+Author: yang wei
+Author URI: https://vstudio.pro
+Description: The theme for my test
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wptest-theme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html {
+    height: 100%;
+    background:#444;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+#site-header {
+    text-align: center;
+}
+
+#site-header h1 {
+    font-size:32px;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+#site-content {
+    text-align: left;
+    max-width:625px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 22px;
+    border-radius:5px;
+}
+
+
+#site-footer {
+    color: #fff;
+    text-align:center;
+    font-size:12px;
+    text-transform: uppercase;
+}
